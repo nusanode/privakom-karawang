@@ -29,7 +29,7 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      // Diubah menjadi bulat kaca transparan dengan pendaran Cyan
+
       className="fixed bottom-6 left-6 lg:bottom-10 lg:left-10 z-50 
       bg-white/80 backdrop-blur-xl border border-white/60 text-[#00AEEF] p-4 lg:p-5 rounded-full
       shadow-lg shadow-cyan-900/10
