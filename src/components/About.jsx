@@ -4,16 +4,12 @@ const About = () => {
       id="about"
       className="py-5 lg:py-5 relative w-full overflow-hidden bg-slate-50"
     >
-
       <div className="absolute top-[20%] left-[-10%] w-96 h-96 bg-[#00AEEF]/20 rounded-full mix-blend-multiply filter blur-[80px] opacity-70 pointer-events-none"></div>
       <div className="absolute bottom-[10%] right-[-5%] w-96 h-96 bg-[#FCE300]/20 rounded-full mix-blend-multiply filter blur-[80px] opacity-70 pointer-events-none"></div>
 
       <div className="px-6 lg:px-12 max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-20 items-center relative z-10">
-
         <div className="lg:w-1/2 relative w-full group mt-10 lg:mt-0">
-
           <div className="relative bg-white/40 backdrop-blur-xl border border-white/60 p-4 rounded-[2.5rem] shadow-2xl shadow-cyan-900/10 z-10 overflow-hidden">
-
             <img
               src="foto-1.jpeg"
               alt="Siswa belajar di Privakom"
@@ -41,24 +37,24 @@ const About = () => {
                 </svg>
               </div>
               <div>
-                <p className="text-2xl font-black text-gray-900 tracking-tight">
-                  Certified
+                <p className="text-lg font-black text-dark tracking-tight leading-tight mb-1">
+                  LKP PRIVAKOM
                 </p>
-                <p className="text-sm font-bold text-gray-500">Institution</p>
+
+                <div className="inline-block mt-1 bg-primary/20 text-dark px-2 py-1 rounded-md text-xs font-extrabold">
+                  NPSN: K9999519
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-
         <div className="lg:w-1/2 w-full py-8 mt-12 lg:mt-0">
-
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-100/50 border border-cyan-200/50 text-[#00AEEF] font-bold text-sm mb-6 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-[#00AEEF] animate-pulse"></span>
             About Privakom
           </div>
 
-  
           <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-6 leading-[1.1] tracking-tight">
             Empowering The Next Generation.
           </h2>
@@ -69,7 +65,6 @@ const About = () => {
             membangkitkan rasa ingin tahu, membangun keterampilan praktis
             menggunakan metode interaktif modern.
           </p>
-
 
           <ul className="space-y-4 mb-12">
             <li className="flex items-center gap-5 p-4 rounded-2xl bg-white/60 backdrop-blur-md border border-white/50 shadow-sm hover:shadow-md hover:bg-white/80 transition-all cursor-default group/list">
@@ -133,7 +128,6 @@ const About = () => {
               </span>
             </li>
           </ul>
-
 
           <a
             href="#courses"
