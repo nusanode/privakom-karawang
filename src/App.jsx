@@ -40,7 +40,7 @@ function App() {
       />
 
       <Navbar />
-      <Hero />
+      <Hero city={seo.city} />
       <Features />
       <About />
       <Courses />
