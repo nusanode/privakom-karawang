@@ -9,9 +9,36 @@ import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ScrollToTop from './components/ScrollToTop';
 
+import SEO from './seo/SEO';
+import { cityConfig } from './seo/cityConfig';
+
 function App() {
+
+  const hostname = window.location.hostname;
+
+  let city = 'karawang';
+
+  if (hostname.includes('tangerang')) {
+    city = 'tangerang';
+  }
+
+  else if (
+    hostname.includes('privakom.co.id') &&
+    !hostname.includes('karawang') &&
+    !hostname.includes('tangerang')
+  ) {
+    city = 'jakarta';
+  }
+
+  const seo = cityConfig[city];
+
   return (
     <>
+      <SEO
+        title={seo.title}
+        description={seo.description}
+      />
+
       <Navbar />
       <Hero />
       <Features />
