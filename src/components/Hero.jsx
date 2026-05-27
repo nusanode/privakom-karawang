@@ -1,4 +1,4 @@
-const Hero = () => {
+const Hero = ({ city }) => {
   return (
     <main className="relative w-full min-h-screen pt-32 pb-20 bg-slate-50 overflow-hidden flex items-center">
 
@@ -19,9 +19,9 @@ const Hero = () => {
             </div>
 
             <h1 className="text-5xl lg:text-[4.5rem] font-black text-gray-900 leading-[1.1] mb-6 tracking-tight">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00AEEF] to-cyan-400">
-                Privakom
-              </span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00AEEF] to-cyan-400">
+  Privakom {city}
+</span> 
             </h1>
 
             <p className="text-lg lg:text-xl text-gray-600 font-medium mb-10 max-w-lg leading-relaxed">
