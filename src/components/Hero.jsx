@@ -25,9 +25,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg lg:text-xl text-gray-600 font-medium mb-10 max-w-lg leading-relaxed">
-              Platform pembelajaran modern untuk menguasai skill digital,
-              administrasi, dan desain dengan metode interaktif & instruktur
-              ahli.
+              Privakom menyediakan kursus komputer, AutoCAD, desain grafis dan pelatihan digital profesional dengan metode interaktif dan instruktur berpengalaman.
             </p>
 
             <div className="flex flex-wrap gap-4">
