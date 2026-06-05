@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-3 text-2xl font-black text-gray-800 tracking-tight">
           <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
-          Privakom
+          PRIVAKOM
         </div>
 
   
