@@ -34,7 +34,7 @@ const Hero = () => {
                 href="#courses"
                 className="inline-flex items-center gap-3 bg-[#00AEEF] text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 hover:-translate-y-1 transition-all active:scale-95"
               >
-                Explore Courses
+                Lihat Program Kursus
                 <svg
                   className="w-5 h-5"
                   fill="none"
@@ -85,7 +85,7 @@ const Hero = () => {
               500+
             </h3>
             <p className="text-gray-800 font-bold mt-1 text-lg">
-              Happy Students
+              Alumni Pelatihan
             </p>
           </div>
 
@@ -109,10 +109,10 @@ const Hero = () => {
               </div>
               <div>
                 <h4 className="text-xl font-bold text-gray-900">
-                  Interactive Learning
+                  Pembelajaran Interaktif
                 </h4>
                 <p className="text-gray-500 font-medium text-sm mt-1">
-                  Metode belajar dua arah yang efektif.
+                  Metode pembelajaran yang interaktif, mudah dipahami, dan aplikatif.
                 </p>
               </div>
             </div>
@@ -137,10 +137,10 @@ const Hero = () => {
               </div>
               <div>
                 <h4 className="text-xl font-bold text-gray-900">
-                  Expert Curriculum
+                  Kurikulum Profesional
                 </h4>
                 <p className="text-gray-500 font-medium text-sm mt-1">
-                  Disusun oleh praktisi industri.
+                  Materi disusun berdasarkan kebutuhan dunia kerja dan industri.
                 </p>
               </div>
             </div>
