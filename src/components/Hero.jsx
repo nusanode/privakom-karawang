@@ -25,7 +25,7 @@ const Hero = () => {
 </h1>
 
             <p className="text-lg lg:text-xl text-gray-600 font-medium mb-10 max-w-lg leading-relaxed">
-             Privakom menyediakan kursus komputer profesional untuk Microsoft Office (Excel, Word dan PowerPoint), AutoCAD, accounting, desain grafis, web design, cybersecurity, administrasi perkantoran dan skill digital dengan metode pembelajaran modern dan instruktur berpengalaman.
+             Privakom menyediakan kursus komputer profesional untuk Microsoft Office (Excel, Word dan PowerPoint), AutoCAD, accounting, desain grafis, web design, cybersecurity, administrasi perkantoran dan skill digital dengan metode pembelajaran modern.
 
             </p>
 
