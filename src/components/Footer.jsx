@@ -41,10 +41,12 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
-                aria-label="Instagram"
-                className="w-12 h-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-full flex items-center justify-center hover:bg-[#00AEEF] hover:border-[#00AEEF] hover:shadow-lg hover:shadow-cyan-500/20 transition-all active:scale-95 text-white hover:-translate-y-1"
-              >
+  href="https://www.instagram.com/privakomkursuskomputerkarawang/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Instagram"
+  className="w-12 h-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-full flex items-center justify-center hover:bg-[#00AEEF] hover:border-[#00AEEF] hover:shadow-lg hover:shadow-cyan-500/20 transition-all active:scale-95 text-white hover:-translate-y-1"
+>
                 <svg
                   className="w-6 h-6"
                   fill="currentColor"
