@@ -20,7 +20,7 @@ const Hero = () => {
 
             <h1 className="text-5xl lg:text-[4.5rem] font-black text-gray-900 leading-[1.1] mb-6 tracking-tight">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00AEEF] to-cyan-400">
-    Kursus Komputer Karawang
+    Kursus Komputer Terbaik di Karawang
   </span>
 </h1>
 
