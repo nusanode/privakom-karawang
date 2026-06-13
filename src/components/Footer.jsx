@@ -38,6 +38,22 @@ const Footer = () => {
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
+                            <a
+  href="https://www.tiktok.com/@privakom.course"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="TikTok"
+  className="w-14 h-14 bg-transparent border-[3px] border-white flex items-center justify-center hover:bg-primary hover:border-primary hover:text-dark transition-colors text-white"
+>
+<svg
+  className="w-6 h-6"
+  fill="currentColor"
+  viewBox="0 0 24 24"
+>
+  <path d="M19.589 6.686a4.793 4.793 0 01-3.77-4.237V2h-3.193v13.766c0 1.648-1.322 2.982-2.955 2.982-1.633 0-2.956-1.334-2.956-2.982s1.323-2.982 2.956-2.982c.305 0 .599.047.876.133V9.661a6.137 6.137 0 00-.876-.063C6.539 9.598 4 12.157 4 15.312 4 18.467 6.539 21 9.67 21s5.67-2.533 5.67-5.688V8.34a8.003 8.003 0 004.66 1.49V6.686h-.411z"/>
+</svg>
+
+</a>
               <a
   href="https://www.instagram.com/privakomkursuskomputerkarawang/"
   target="_blank"
