@@ -127,9 +127,7 @@ const Navbar = () => {
 >
   Daftar Sekarang
 </a>
-              Daftar Sekarang
-            </a>
-          </div>
+    </div>
         )}
       </nav>
     </>
