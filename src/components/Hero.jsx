@@ -20,12 +20,12 @@ const Hero = () => {
           {/* HERO TEXT */}
           <div className="md:col-span-8 bg-white/60 backdrop-blur-xl border border-white/60 p-10 lg:p-14 rounded-[2.5rem] shadow-xl shadow-cyan-900/5 flex flex-col justify-center relative overflow-hidden">
 
-            <h1 className="text-5xl lg:text-[4.5rem] font-black text-gray-900 leading-[1.1] mb-6 tracking-tight">
-              Kursus Komputer Karawang
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#00AEEF] to-cyan-400">
-                Excel, AutoCAD, Accounting & IT Profesional
-              </span>
-            </h1>
+            <h1 className="text-3xl md:text-5xl lg:text-[3.8rem] font-black text-gray-900 leading-[1.2] mb-6">
+  Kursus Komputer Karawang untuk Kerja & Industri
+  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#00AEEF] to-cyan-400">
+    Excel • AutoCAD • Accounting • IT
+  </span>
+</h1>
 
             <p className="text-lg lg:text-xl text-gray-600 font-medium mb-10 max-w-xl leading-relaxed">
               PRIVAKOM Karawang menyediakan kursus komputer profesional mulai dari Microsoft Office (Excel, Word, PowerPoint),
