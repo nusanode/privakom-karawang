@@ -78,12 +78,14 @@ const Navbar = () => {
 
           {/* CTA */}
           <div className="hidden md:flex">
-            <a
-              href="/kursus-komputer-karawang"
-              className="bg-[#FCE300] text-gray-900 px-6 py-2.5 rounded-full font-bold shadow-md hover:bg-yellow-400 transition-all"
-            >
-              Daftar Kursus Karawang
-            </a>
+           <a
+  href="https://wa.me/6282277779504?text=Halo%20Privakom%20Karawang,%20saya%20ingin%20mendaftar%20kursus%20komputer%20dan%20minta%20info%20jadwal%20serta%20biaya."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#FCE300] text-gray-900 px-6 py-2.5 rounded-full font-bold shadow-md hover:bg-yellow-400 transition-all"
+>
+  Daftar Sekarang
+</a>
           </div>
 
           {/* MOBILE BUTTON */}
@@ -118,9 +120,13 @@ const Navbar = () => {
             <a href="#contact" className="font-bold">Kontak</a>
 
             <a
-              href="/kursus-komputer-karawang"
-              className="bg-yellow-400 text-center py-3 rounded-full font-bold"
-            >
+  href="https://wa.me/6282277779504?text=Halo%20Privakom%20Karawang,%20saya%20ingin%20mendaftar%20kursus%20komputer."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-yellow-400 text-center py-3 rounded-full font-bold"
+>
+  Daftar Sekarang
+</a>
               Daftar Sekarang
             </a>
           </div>
