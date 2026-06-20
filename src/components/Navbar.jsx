@@ -1,14 +1,22 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // auto close jika klik luar
   useEffect(() => {
-  const handleClickOutside = () => setIsMobileMenuOpen(false);
-  window.addEventListener('click', handleClickOutside);
-  return () => window.removeEventListener('click', handleClickOutside);
-}, []); 
+    const handleClickOutside = () => {
+      setIsMobileMenuOpen(false);
+    };
 
+    window.addEventListener('click', handleClickOutside);
+
+    return () => {
+      window.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
+
+  return (
     <>
       {/* SEO Hidden Text */}
       <span className="sr-only">
@@ -27,7 +35,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3 text-2xl font-black text-gray-800 tracking-tight">
             <img
               src="/logo.svg"
-              alt="Privakom Karawang Kursus Komputer"
+              alt="Privakom Karawang Kursus Komputer Excel AutoCAD Accounting"
               className="h-8 w-auto"
             />
             <span>PRIVAKOM KARAWANG</span>
