@@ -2,6 +2,11 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+ useEffect(() => {
+  const handleClickOutside = () => setIsMobileMenuOpen(false);
+  window.addEventListener('click', handleClickOutside);
+  return () => window.removeEventListener('click', handleClickOutside);
+}, []); 
 
   return (
     <>
