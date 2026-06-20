@@ -26,16 +26,16 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-6 left-0 right-0 z-50 w-full px-4 lg:px-12 transition-all">
-      {/* Teks Tersembunyi khusus untuk Google AI - Menguatkan Keyword Utama */}
+      {/* Teks Tersembunyi khusus untuk Google AI - Menguatkan Semua Ragam Keyword Utama */}
       <span className="sr-only">
-        LKP PRIVAKOM Karawang - Pusat Kursus Komputer, Kursus Microsoft Office, Kursus Excel, dan Vendor Inhouse Training Perusahaan.
+        LKP PRIVAKOM Karawang - Pusat Kursus Komputer, Kursus Microsoft Office, Kursus Excel, Kursus Accounting, Kursus Web Design & Programming, Kursus AutoCAD, Kursus Teknik Komputer, Kursus Cyber Security, dan Vendor Inhouse Training Perusahaan.
       </span>
 
       <div className="max-w-7xl mx-auto bg-white/70 backdrop-blur-md border border-white/50 shadow-lg shadow-cyan-900/5 rounded-full py-3 px-6 lg:px-8 flex items-center justify-between">
         
         {/* Logo - Dioptimalkan Khusus SEO Komputer Karawang */}
         <div className="flex items-center gap-3 text-2xl font-black text-gray-800 tracking-tight">
-          <img src="/logo.svg" alt="LKP PRIVAKOM Karawang - Kursus Komputer, Microsoft Office, dan Excel" className="h-8 w-auto" />
+          <img src="/logo.svg" alt="LKP PRIVAKOM Karawang - Kursus Komputer, Excel, AutoCAD, Accounting, Web Design, Teknik Komputer & Cyber Security" className="h-8 w-auto" />
           <a href="https://privakom.co.id" title="Kursus Komputer Privakom Karawang" className="hover:text-cyan-600 transition-all">PRIVAKOM</a>
         </div>
 
@@ -58,10 +58,10 @@ const Navbar = () => {
             Inhouse Training
           </button>
 
-          {/* Kata Kunci: Kursus Komputer & Microsoft Office */}
+          {/* Kata Kunci Navigasi Desktop Terpadu */}
           <button
             onClick={(e) => scrollToSection(e, 'courses')}
-            title="Kursus Komputer, Kursus Microsoft Office & Kursus Excel"
+            title="Kursus Komputer, Microsoft Office, Excel, AutoCAD, Accounting, Web Design, Teknik Komputer, Cyber Security"
             className="hover:text-cyan-600 hover:bg-white/50 px-4 py-2 rounded-full transition-all text-left focus:outline-none"
           >
             Kursus & Pelatihan
@@ -134,15 +134,20 @@ const Navbar = () => {
             Tentang Kami
           </button>
           
-          {/* Mobile Keyword: Inhouse Training */}
           <button onClick={(e) => handleBranchClick(e, "https://privakom.co.id")} className="text-cyan-600 text-left font-bold text-lg hover:bg-white/50 px-4 py-3 rounded-2xl transition-all focus:outline-none w-full">
             Inhouse Training Perusahaan
           </button>
 
-          {/* Mobile Keyword: Kursus Microsoft Office & Excel */}
-          <button onClick={(e) => scrollToSection(e, 'courses')} className="text-gray-800 text-left font-bold text-lg hover:text-cyan-600 hover:bg-white/50 px-4 py-3 rounded-2xl transition-all focus:outline-none w-full">
-            Kursus Office & Excel
-          </button>
+          {/* Mobile Keywords Lengkap & Variatif */}
+          <div className="flex flex-col space-y-1 bg-gray-50/50 p-2 rounded-2xl border border-gray-100 my-1">
+            <span className="px-4 text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1">Pilihan Program Kursus:</span>
+            <button onClick={(e) => scrollToSection(e, 'courses')} className="text-left text-gray-800 font-bold text-base hover:text-cyan-600 px-4 py-2 rounded-xl focus:outline-none">💻 Kursus Office & Excel Advanced</button>
+            <button onClick={(e) => scrollToSection(e, 'courses')} className="text-left text-gray-800 font-bold text-base hover:text-cyan-600 px-4 py-2 rounded-xl focus:outline-none">📐 Kursus AutoCAD 2D / 3D</button>
+            <button onClick={(e) => scrollToSection(e, 'courses')} className="text-left text-gray-800 font-bold text-base hover:text-cyan-600 px-4 py-2 rounded-xl focus:outline-none">📊 Kursus Accounting (Zahir/Accurate)</button>
+            <button onClick={(e) => scrollToSection(e, 'courses')} className="text-left text-gray-800 font-bold text-base hover:text-cyan-600 px-4 py-2 rounded-xl focus:outline-none">🌐 Kursus Web Design & Programming</button>
+            <button onClick={(e) => scrollToSection(e, 'courses')} className="text-left text-gray-800 font-bold text-base hover:text-cyan-600 px-4 py-2 rounded-xl focus:outline-none">🛠️ Kursus Teknik Komputer & Jaringan</button>
+            <button onClick={(e) => scrollToSection(e, 'courses')} className="text-left text-gray-800 font-bold text-base hover:text-cyan-600 px-4 py-2 rounded-xl focus:outline-none">🛡️ Kursus Cyber Security</button>
+          </div>
 
           {/* AKORDEON CABANG DI HP */}
           <div className="border-t border-b border-gray-100 py-3 my-1">
@@ -154,27 +159,4 @@ const Navbar = () => {
               <span className="text-xs transition-transform duration-300">{isMobileBranchOpen ? '▲' : '▼'}</span>
             </button>
             
-            {isMobileBranchOpen && (
-              <div className="mt-3 flex flex-col space-y-1 pl-4 animate-[fadeIn_0.2s_ease-out]">
-                <button onClick={(e) => handleBranchClick(e, "https://privakom.co.id")} className="w-full text-left text-gray-600 font-bold text-base hover:text-cyan-600 py-2 block focus:outline-none">
-                  📍 Jakarta (Duren Sawit)
-                </button>
-                <button onClick={(e) => handleBranchClick(e, "https://privakom.co.id")} className="w-full text-left text-gray-600 font-bold text-base hover:text-cyan-600 py-2 block focus:outline-none">
-                  📍 Tangerang (Kelapa Dua)
-                </button>
-                <a href="https://privakom.co.id" className="text-gray-600 font-bold text-base hover:text-cyan-600 py-2 block">
-                  📍 Karawang (Klari)
-                </a>
-              </div>
-            )}
-          </div>
-
-          <button onClick={(e) => scrollToSection(e, 'students')} className="text-gray-800 text-left font-bold text-lg hover:text-cyan-600 hover:bg-white/50 px-4 py-3 rounded-2xl transition-all focus:outline-none w-full">
-            Testimoni
-          </button>
-          <button onClick={(e) => scrollToSection(e, 'contact')} className="text-gray-800 text-left font-bold text-lg hover:text-cyan-600 hover:bg-white/50 px-4 py-3 rounded-2xl transition-all focus:outline-none w-full">
-            Kontak
-          </button>
-
-          <div className="pt-4">
-            <buttononClick={(e) => scrollToSection(e, 'contact')}className="block w-full bg-[#FCE300] text-gray-900 text-center py-4 rounded-full font-bold shadow-md active:scale-95 transition-all focus:outline-none">Daftar Sekarang)});};export default Navbar;
+{isMobileBranchOpen && (<button onClick={(e) => handleBranchClick(e, "privakom.co.id")} className="w-full text-left text-gray-600 font-bold text-base hover:text-cyan-600 py-2 block focus:outline-none">📍 Jakarta (Duren Sawit)<button onClick={(e) => handleBranchClick(e, "privakom.co.id")} className="w-full text-left text-gray-600 font-bold text-base hover:text-cyan-600 py-2 block focus:outline-none">📍 Tangerang (Kelapa Dua)📍 Karawang (Klari))}<button onClick={(e) => scrollToSection(e, 'students')} className="text-gray-800 text-left font-bold text-lg hover:text-cyan-600 hover:bg-white/50 px-4 py-3 rounded-2xl transition-all focus:outline-none w-full">Testimoni<button onClick={(e) => scrollToSection(e, 'contact')} className="text-gray-800 text-left font-bold text-lg hover:text-cyan-600 hover:bg-white/50 px-4 py-3 rounded-2xl transition-all focus:outline-none w-full">Kontak<buttononClick={(e) => scrollToSection(e, 'contact')}className="block w-full bg-[#FCE300] text-gray-900 text-center py-4 rounded-full font-bold shadow-md active:scale-95 transition-all focus:outline-none">Daftar Sekarang)});};export default Navbar;
