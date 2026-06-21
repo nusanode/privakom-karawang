@@ -317,6 +317,7 @@ export const studentsData = [
     image: "https://ui-avatars.com/api/?name=Rafi+Ashari&background=random",
     testimonial: "Kursus Excel di Privakom Karawang sangat membantu pekerjaan saya. Sekarang saya lebih memahami rumus, fungsi Excel, Pivot Table, dan pembuatan laporan."
   },
+  {
     id: 4,
     name: "Miang Siwara",
     role: "Student",
