@@ -13,7 +13,7 @@ const Courses = () => {
   const categories = ['Semua Program', ...new Set(coursesData.map(course => course.category))];
 
   const allFilteredCourses = coursesData.filter(course => {
-    const matchesCategory = activeCategory === 'All Courses' || course.category === activeCategory;
+    const matchesCategory = activeCategory === 'Semua Program' || course.category === activeCategory;
     const matchesSearch = course.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
                           course.description.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearch;
@@ -85,16 +85,25 @@ const Courses = () => {
         <div className="mb-8 md:mb-0">
           <div className="flex items-center gap-3 mb-4">
             <div className="h-1.5 w-8 bg-[#00AEEF] rounded-full"></div>
-            <span className="text-[#00AEEF] font-bold tracking-wider text-sm uppercase">
-  Program Pelatihan
-<h2 className="text-4xl lg:text-6xl font-black text-gray-900 leading-[1.1] tracking-tight">
-  Kursus Komputer Karawang
-</h2>
+            <div className="mb-8 md:mb-0">
+  <div className="flex items-center gap-3 mb-4">
+    <div className="h-1.5 w-8 bg-[#00AEEF] rounded-full"></div>
 
-<p className="mt-4 text-lg text-gray-600 max-w-2xl">
-  Kursus Excel, AutoCAD, Accounting, Microsoft Office, Cyber Security,
-  Desain Grafis, Web Design, Teknisi Komputer dan pelatihan kerja profesional di Karawang.
-</p>
+    <span className="text-[#00AEEF] font-bold tracking-wider text-sm uppercase">
+      Program Pelatihan
+    </span>
+  </div>
+
+  <h2 className="text-4xl lg:text-6xl font-black text-gray-900 leading-[1.1] tracking-tight">
+    Kursus Komputer Karawang
+  </h2>
+
+  <p className="mt-4 text-lg text-gray-600 max-w-2xl">
+    Kursus Excel, AutoCAD, Accounting, Microsoft Office,
+    Cyber Security, Desain Grafis, Web Design,
+    Teknisi Komputer dan pelatihan kerja profesional di Karawang.
+  </p>
+</div>
         </div>
 
         <div className="w-full md:w-auto flex flex-col md:flex-row items-stretch md:items-center gap-4">
