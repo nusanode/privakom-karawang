@@ -246,35 +246,52 @@ export const coursesData = [
   },
   {
   id: 36,
-  title: "In House Training Microsoft Office",
+  title: "Inhouse Training Microsoft Office",
   category: "Corporate Training",
   duration: "Custom",
-  description: "Pelatihan Word, Excel, dan PowerPoint untuk karyawan.",
-  image: "/images/privakom-corporate-training.jpg",
+  description: "Pelatihan Microsoft Excel, Word, dan PowerPoint untuk perusahaan, instansi pemerintah, sekolah, dan organisasi di Karawang."
 },
 {
   id: 37,
-  title: "In House Training Microsoft Excel",
+  title: "Inhouse Training Excel Professional",
   category: "Corporate Training",
   duration: "Custom",
-  description: "Pelatihan Excel Basic, Intermediate hingga Advanced.",
-  image: "/images/privakom-corporate-training.jpg",
+  description: "Pelatihan Excel Basic hingga Advanced untuk meningkatkan produktivitas dan analisis data perusahaan."
 },
 {
   id: 38,
-  title: "In House Training Power BI",
+  title: "Inhouse Training Power BI",
   category: "Corporate Training",
   duration: "Custom",
-  description: "Pelatihan dashboard dan analisis data perusahaan.",
-  image: "/images/privakom-corporate-training.jpg",
+  description: "Pelatihan visualisasi data dan dashboard Power BI untuk kebutuhan bisnis dan manajemen perusahaan."
 },
 {
   id: 39,
-  title: "In House Training Cyber Security",
+  title: "Inhouse Training AutoCAD",
   category: "Corporate Training",
   duration: "Custom",
-  description: "Pelatihan keamanan informasi dan keamanan jaringan.",
-  image: "/images/inhouse-cyber.jpg",
+  description: "Pelatihan AutoCAD 2D dan 3D untuk perusahaan manufaktur, konstruksi, engineering, dan arsitektur."
+},
+{
+  id: 40,
+  title: "Inhouse Training Accounting Accurate & Zahir",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan software akuntansi Accurate dan Zahir untuk staf keuangan dan administrasi perusahaan."
+},
+{
+  id: 41,
+  title: "Inhouse Training Cyber Security",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan keamanan siber untuk meningkatkan kesadaran dan perlindungan data perusahaan."
+},
+{
+  id: 42,
+  title: "Inhouse Training Teknisi Komputer & Jaringan",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan maintenance komputer, troubleshooting, jaringan LAN, dan Mikrotik untuk kebutuhan perusahaan."
 }
 ];
 
