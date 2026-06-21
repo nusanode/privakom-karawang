@@ -284,42 +284,41 @@ export const studentsData = [
     name: "Ruth Maharani",
     role: "Student",
     image: "https://ui-avatars.com/api/?name=Ruth+Maharani&background=random",
-    testimonial: "Les komputer privat senyaman ini. Gurunya baik, sabar, dan cara mengajarnya mudah dipahami. Materinya juga sangat lengkap."
+    testimonial: "Saya mengikuti kursus Microsoft Office di Privakom Karawang. Materi Excel, Word, dan PowerPoint dijelaskan dengan sangat jelas dan mudah dipahami. Trainer sabar dan profesional."
   },
   {
     id: 2,
     name: "Luthfie Kedua",
     role: "Student",
     image: "https://ui-avatars.com/api/?name=Luthfie+Kedua&background=random",
-    testimonial: "Ruangan dan pembelajarannya sangat bagus, fasilitas lengkap, dan materi dijelaskan dengan sangat jelas oleh trainer."
+    testimonial: "Fasilitas belajar sangat nyaman. Saya belajar perakitan komputer, troubleshooting, dan jaringan komputer. Sangat direkomendasikan untuk yang ingin meningkatkan skill kerja."
   },
   {
     id: 3,
     name: "Rafi Ashari",
     role: "Student",
     image: "https://ui-avatars.com/api/?name=Rafi+Ashari&background=random",
-    testimonial: "Excel course di sini sangat bagus. Pengajar jelas, terstruktur, dan sabar dalam mengajar."
+    testimonial: "Kursus Excel di Privakom Karawang sangat membantu pekerjaan saya. Sekarang saya lebih memahami rumus, fungsi Excel, Pivot Table, dan pembuatan laporan."
   },
-  {
     id: 4,
     name: "Miang Siwara",
     role: "Student",
     image: "https://ui-avatars.com/api/?name=Miang+Siwara&background=random",
-    testimonial: "Les di Privakom sangat menyenangkan. Dari yang tidak paham komputer jadi lebih mengerti."
+    testimonial: "Dari yang sebelumnya tidak memahami komputer, sekarang saya jauh lebih percaya diri. Pengajarnya ramah dan proses belajar sangat menyenangkan."
   },
   {
     id: 5,
     name: "Annisa Apriliana",
     role: "Student",
     image: "https://ui-avatars.com/api/?name=Annisa+Apriliana&background=random",
-    testimonial: "Tempat pelatihan nyaman, trainer berpengalaman, dan materi disampaikan dengan baik."
+    testimonial: "Materi Accurate dan Zahir dijelaskan secara detail. Sangat membantu untuk kebutuhan administrasi dan akuntansi perusahaan."
   },
   {
     id: 6,
     name: "Putri Dwiyanti",
     role: "Student",
     image: "https://ui-avatars.com/api/?name=Putri+Dwiyanti&background=random",
-    testimonial: "Materi mudah dipahami dan pengajarnya sangat sabar membimbing sampai bisa."
+    testimonial: "Belajar PowerPoint menjadi lebih mudah. Saya bisa membuat presentasi yang profesional untuk kebutuhan kerja dan presentasi bisnis."
   }
 ];
 
