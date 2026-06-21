@@ -34,7 +34,7 @@ const Navbar = () => {
 
           {/* LOGO */}
           <div className="flex items-center gap-3 text-2xl font-black text-gray-800">
-            <img src="/logo.svg" alt="Kursus Komputer Karawang Privakom Excel AutoCAD IT" className="h-10 w-auto" />
+            <img src="/logo.svg" alt="Kursus Komputer Karawang Privakom Excel AutoCAD IT" className="h-8 w-auto" />
             <span>PRIVAKOM KARAWANG</span>
           </div>
 
