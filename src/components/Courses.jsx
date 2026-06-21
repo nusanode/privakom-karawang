@@ -83,9 +83,6 @@ const Courses = () => {
 
       <div className="flex flex-col md:flex-row items-end justify-between mb-16 relative z-10">
         <div className="mb-8 md:mb-0">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="h-1.5 w-8 bg-[#00AEEF] rounded-full"></div>
-            <div className="mb-8 md:mb-0">
   <div className="flex items-center gap-3 mb-4">
     <div className="h-1.5 w-8 bg-[#00AEEF] rounded-full"></div>
 
@@ -104,7 +101,6 @@ const Courses = () => {
     Teknisi Komputer dan pelatihan kerja profesional di Karawang.
   </p>
 </div>
-        </div>
 
         <div className="w-full md:w-auto flex flex-col md:flex-row items-stretch md:items-center gap-4">
 
