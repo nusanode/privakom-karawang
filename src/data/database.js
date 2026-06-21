@@ -243,7 +243,39 @@ export const coursesData = [
     category: "Cyber Security",
     duration: "15 Jam",
     description: "Belajar dasar keamanan siber dan perlindungan data dari ancaman digital."
-  }
+  },
+  {
+  id: 36,
+  title: "In House Training Microsoft Office",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan Word, Excel, dan PowerPoint untuk karyawan.",
+  image: "/images/privakom-corporate-training.jpg",
+},
+{
+  id: 37,
+  title: "In House Training Microsoft Excel",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan Excel Basic, Intermediate hingga Advanced.",
+  image: "/images/privakom-corporate-training.jpg",
+},
+{
+  id: 38,
+  title: "In House Training Power BI",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan dashboard dan analisis data perusahaan.",
+  image: "/images/privakom-corporate-training.jpg",
+},
+{
+  id: 39,
+  title: "In House Training Cyber Security",
+  category: "Corporate Training",
+  duration: "Custom",
+  description: "Pelatihan keamanan informasi dan keamanan jaringan.",
+  image: "/images/inhouse-cyber.jpg",
+}
 ];
 
 export const studentsData = [
