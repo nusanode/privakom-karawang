@@ -3,14 +3,14 @@ import { coursesData, contactData } from '../data/database';
 
 const Courses = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('All Courses');
+  const [activeCategory, setActiveCategory] = useState('Semua Program');
   const [selectedCourse, setSelectedCourse] = useState(null);
   
   const [viewMode, setViewMode] = useState('grid');
   
   const [visibleCount, setVisibleCount] = useState(3); 
 
-  const categories = ['All Courses', ...new Set(coursesData.map(course => course.category))];
+  const categories = ['Semua Program', ...new Set(coursesData.map(course => course.category))];
 
   const allFilteredCourses = coursesData.filter(course => {
     const matchesCategory = activeCategory === 'All Courses' || course.category === activeCategory;
@@ -33,8 +33,8 @@ const Courses = () => {
   };
 
   const handleCategoryClick = (category) => {
-    if (activeCategory === category && category !== 'All Courses') {
-      setActiveCategory('All Courses');
+    if (activeCategory === category && category !== 'Semua Program') {
+      setActiveCategory('Semua Program');
     } else {
       setActiveCategory(category);
     }
@@ -85,11 +85,16 @@ const Courses = () => {
         <div className="mb-8 md:mb-0">
           <div className="flex items-center gap-3 mb-4">
             <div className="h-1.5 w-8 bg-[#00AEEF] rounded-full"></div>
-            <span className="text-[#00AEEF] font-bold tracking-wider text-sm uppercase">Discover Your Path</span>
-          </div>
-          <h2 className="text-5xl lg:text-7xl font-black text-gray-900 leading-[1.1] tracking-tight">
-            Explore<br />Courses.
-          </h2>
+            <span className="text-[#00AEEF] font-bold tracking-wider text-sm uppercase">
+  Program Pelatihan
+<h2 className="text-4xl lg:text-6xl font-black text-gray-900 leading-[1.1] tracking-tight">
+  Kursus Komputer Karawang
+</h2>
+
+<p className="mt-4 text-lg text-gray-600 max-w-2xl">
+  Kursus Excel, AutoCAD, Accounting, Microsoft Office, Cyber Security,
+  Desain Grafis, Web Design, Teknisi Komputer dan pelatihan kerja profesional di Karawang.
+</p>
         </div>
 
         <div className="w-full md:w-auto flex flex-col md:flex-row items-stretch md:items-center gap-4">
@@ -120,7 +125,7 @@ const Courses = () => {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="block w-full pl-14 pr-12 py-4 bg-white/70 backdrop-blur-md border border-white/60 rounded-full text-gray-900 font-semibold placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00AEEF]/50 transition-all shadow-sm" 
-              placeholder="Search courses..." 
+              placeholder="Cari program kursus..."
             />
             {searchTerm && (
               <button 
@@ -162,7 +167,7 @@ const Courses = () => {
                   className="bg-white/60 backdrop-blur-xl border border-white/60 rounded-[2rem] shadow-xl shadow-cyan-900/5 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group cursor-pointer flex flex-col overflow-hidden"
                 >
                   <div className="relative h-56 p-2 overflow-hidden bg-transparent shrink-0 w-full">
-                    {index === 0 && activeCategory === 'All Courses' && !searchTerm && (
+                    {index === 0 && activeCategory === 'Semua Program' && !searchTerm && (
                       <div className="absolute top-6 right-6 z-20 bg-red-500 text-white px-4 py-1.5 rounded-full text-xs font-bold animate-pulse shadow-md">
                         Hot
                       </div>
@@ -195,7 +200,7 @@ const Courses = () => {
                         }} 
                         className="text-sm font-bold text-[#00AEEF] bg-[#00AEEF]/10 hover:bg-[#00AEEF] hover:text-white rounded-full px-6 py-2.5 transition-colors active:scale-95"
                       >
-                        Details
+                        Detail
                       </button>
                     </div>
                   </div>
@@ -271,10 +276,10 @@ const Courses = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <h3 className="text-3xl font-black text-gray-900 mb-4 tracking-tight">No Courses Found</h3>
-            <p className="text-gray-600 font-medium text-lg">We couldn't find any courses matching "{searchTerm}".</p>
+            <h3 className="text-3xl font-black text-gray-900 mb-4 tracking-tight">Program Tidak Ditemukan</h3>
+            <p className="text-gray-600 font-medium text-lg">Tidak ada program yang sesuai dengan pencarian "{searchTerm}".</p>
             <button onClick={() => setSearchTerm('')} className="mt-8 bg-gray-900 text-white font-bold rounded-full px-8 py-4 hover:bg-gray-800 transition-colors active:scale-95 shadow-md">
-              Clear Search
+              Hapus Pencarian
             </button>
           </div>
         )}
