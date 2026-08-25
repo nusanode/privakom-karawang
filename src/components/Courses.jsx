@@ -632,4 +632,91 @@ const Courses = () => {
                 id="course-title"
                 className="text-3xl sm:text-4xl font-black text-white leading-tight pr-8"
               >
-                {selecte
+                {selectedCourse.title}
+              </h3>
+
+            </div>
+
+            {/* Isi */}
+            <div className="p-7 sm:p-9">
+
+              <div className="flex items-center gap-2 text-gray-600 font-bold mb-7">
+
+                <svg
+                  className="w-5 h-5 text-[#00AEEF]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 11-18 0"
+                  />
+                </svg>
+
+                Durasi: {selectedCourse.duration}
+
+              </div>
+
+              <h4 className="text-xl font-black text-gray-900 mb-3">
+                Deskripsi Program
+              </h4>
+
+              <p className="text-gray-600 text-lg leading-relaxed mb-7">
+                {selectedCourse.description}
+              </p>
+
+              <div className="bg-cyan-50 border border-cyan-100 rounded-2xl p-5 mb-7">
+
+                <p className="text-gray-700 leading-relaxed">
+                  💡 Untuk informasi harga, jadwal kelas reguler,
+                  weekend, private, maupun kebutuhan pelatihan
+                  perusahaan, silakan hubungi Admin Privakom Karawang.
+                </p>
+
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3">
+
+                <button
+                  type="button"
+                  onClick={() => setSelectedCourse(null)}
+                  className="w-full sm:w-1/3 px-6 py-4 font-bold rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200"
+                >
+                  Tutup
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleDaftarClick}
+                  className="w-full sm:w-2/3 px-6 py-4 font-bold rounded-full bg-[#FCE300] text-gray-900 hover:bg-yellow-400 shadow-md flex items-center justify-center gap-3"
+                >
+                  Daftar via WhatsApp
+
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654z" />
+                  </svg>
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      )}
+
+    </section>
+  );
+};
+
+export default Courses;
