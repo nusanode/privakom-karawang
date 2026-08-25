@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { coursesData, contactData } from '../data/database';
 
 const Courses = () => {
+  const courseImage = "/foto-1.jpeg";
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('Semua Program');
   const [selectedCourse, setSelectedCourse] = useState(null);
