@@ -38,8 +38,8 @@ const Features = () => {
         >
           {/* SISI KIRI: Teks Program Kursus */}
           <div className="w-1/2 p-4 sm:p-6 lg:p-8 flex flex-col justify-center h-full border-r border-white/50 z-10 bg-transparent">
-            {/* Mengubah 20+ menjadi 8+ (Menyesuaikan jumlah 8 program kursus utama Anda) */}
-            <h3 className="text-3xl sm:text-5xl font-black text-gray-900 mb-1">8+</h3>
+            
+            <h3 className="text-3xl sm:text-5xl font-black text-gray-900 mb-1">20+</h3>
             <p className="text-gray-500 font-bold text-xs sm:text-sm mb-4 md:mb-6 leading-relaxed">
               Program Kursus
               <br />
@@ -81,9 +81,9 @@ const Features = () => {
         >
           <div>
             <div className="flex justify-between items-start mb-2 sm:mb-4">
-              {/* Mengubah 50+ menjadi 10+ Instruktur Ahli */}
+              
               <h3 className="text-3xl sm:text-6xl font-black tracking-tight text-white drop-shadow-sm">
-                10+
+                50+
               </h3>
 
               <div className="p-2 sm:p-3 rounded-xl sm:rounded-2xl bg-white/20 backdrop-blur-md group-hover:bg-white group-hover:text-[#00AEEF] text-white transition-all duration-300 transform group-hover:scale-110 group-hover:rotate-3 shadow-sm">
