@@ -13,7 +13,7 @@ const Footer = () => {
     {
       title: "🍊 PRIVAKOM TANGERANG",
       address: "Jl. Kav. Perkebunan Raya No.139 A, RT.005/RW.01, Bencongan, Kecamatan Kelapa Dua, Kota Tangerang, Banten 15810",
-      mapUrl: "https://goo.gl"
+      mapUrl: "https://maps.app.goo.gl/qhEMHP4XAu178Ner7?g_st=aw-"
     },
     {
       title: "🌾 PRIVAKOM KARAWANG",
