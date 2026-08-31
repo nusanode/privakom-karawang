@@ -56,7 +56,7 @@ const Contact = () => {
 
                   <div className="flex items-center gap-2 text-xs md:text-sm font-bold">
                     <a 
-                      href="https://goo.gl"
+                      href="https://maps.app.goo.gl/UJiprqPTFNzwAzBc6?g_st=aw"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-[#FCE300] hover:text-yellow-300 transition-colors focus:outline-none"
