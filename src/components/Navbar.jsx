@@ -19,7 +19,7 @@ const Navbar = () => {
 
   // Bank Data Tautan Cabang Regional Privakom (Cross-Linking SEO Boost)
   const branches = [
-    { name: '📍 Jakarta Timur (Pusat)', url: https://maps.app.goo.gl/8Q4Qb8KXCADnKQT16?g_st=aw- },
+    { name: '📍 Jakarta Timur (Pusat)', url: 'https://maps.app.goo.gl/8Q4Qb8KXCADnKQT16?g_st=aw-' },
     { name: '📍 Tangerang (Banten)', url: 'https://privakom.co.id' },
     { name: '📍 Karawang (Jawa Barat)', url: 'https://privakom.co.id' }
   ];
