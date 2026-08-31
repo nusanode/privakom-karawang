@@ -8,7 +8,7 @@ const Footer = () => {
     {
       title: "🏢 PRIVAKOM JAKARTA (Pusat)",
       address: "Jl. Madrasah II No.1A, RT.8/RW.10, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440",
-      mapUrl: "https://goo.gl"
+      mapUrl: "https://maps.app.goo.gl/8Q4Qb8KXCADnKQT16?g_st=aw-"
     },
     {
       title: "🍊 PRIVAKOM TANGERANG",
