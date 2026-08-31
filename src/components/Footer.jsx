@@ -18,7 +18,7 @@ const Footer = () => {
     {
       title: "🌾 PRIVAKOM KARAWANG",
       address: "J9MH+2FR, Jl. Raya Kosambi - Telagasari, Duren, Kec. Klari, Karawang, Jawa Barat 41371",
-      mapUrl: "https://goo.gl"
+      mapUrl: "https://maps.app.goo.gl/UJiprqPTFNzwAzBc6?g_st=aw"
     }
   ];
 
