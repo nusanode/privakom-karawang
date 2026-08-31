@@ -95,4 +95,102 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+                   {/* QUICK LINKS AREA */}
+          <div className="lg:col-span-1">
+            <h4 className="font-extrabold text-lg md:text-2xl text-white mb-4 md:mb-8">Quick Links</h4>
+            <ul className="space-y-3 md:space-y-4">
+              <li className="group">
+                <a href="#about" className="inline-flex items-center text-gray-400 font-bold text-xs md:text-sm hover:text-[#00AEEF] transition-colors">
+                  <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-[#00AEEF]">➔</span>
+                  About Us
+                </a>
+              </li>
+              <li className="group">
+                <a href="#courses" className="inline-flex items-center text-gray-400 font-bold text-xs md:text-sm hover:text-[#00AEEF] transition-colors">
+                  <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-[#00AEEF]">➔</span>
+                  Popular Courses
+                </a>
+              </li>
+              <li className="group">
+                <a href="#students" className="inline-flex items-center text-gray-400 font-bold text-xs md:text-sm hover:text-[#00AEEF] transition-colors">
+                  <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-[#00AEEF]">➔</span>
+                  Success Stories
+                </a>
+              </li>
+              <li className="group">
+                <a href="#contact" className="inline-flex items-center text-gray-400 font-bold text-xs md:text-sm hover:text-[#00AEEF] transition-colors">
+                  <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-[#00AEEF]">➔</span>
+                  Contact Support
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* OPERATING HOURS AREA */}
+          <div className="lg:col-span-1">
+            <h4 className="font-extrabold text-lg md:text-2xl text-white mb-4 md:mb-8">Operating Hours</h4>
+            <ul className="space-y-3 md:space-y-4">
+              <li className="flex justify-between items-center border-b border-white/10 pb-3 md:pb-4">
+                <span className="font-bold text-xs md:text-sm text-gray-300">Senin - Sabtu</span>
+                <span className="bg-[#00AEEF]/20 text-[#00AEEF] font-bold px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[10px] md:text-xs border border-cyan-500/30">09:00 - 17:00</span>
+              </li>
+              <li className="flex justify-between items-center border-b border-white/10 pb-3 md:pb-4">
+                <span className="font-bold text-xs md:text-sm text-gray-300">Minggu</span>
+                <span className="bg-white/5 text-gray-400 font-bold px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[10px] md:text-xs border border-white/10">Libur</span>
+              </li>
+            </ul>
+
+            <div className="bg-cyan-900/20 border border-cyan-800/50 rounded-xl p-3 md:p-4 mt-4 md:mt-6">
+              <p className="text-xs md:text-sm font-medium text-gray-400 leading-relaxed">
+                Pendaftaran & konsultasi online tetap dilayani 24/7 melalui WhatsApp.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* SECTION 2: GRID KARTU ALAMAT FISIK (LOCAL SEO GEOTARGETING BOOST) */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
+          {branchAddresses.map((branch, idx) => (
+            <div 
+              key={idx} 
+              className="bg-white/5 backdrop-blur-md border border-white/10 p-5 rounded-[1.5rem] md:rounded-[2rem] shadow-xl flex flex-col justify-between hover:border-cyan-500/30 transition-all duration-300"
+            >
+              <div>
+                <h4 className="text-white text-sm md:text-base font-black tracking-tight mb-2">
+                  {branch.title}
+                </h4>
+                <p className="text-xs md:text-sm text-gray-400 leading-relaxed font-medium">
+                  {branch.address}
+                </p>
+              </div>
+
+              <div className="mt-4 pt-3 border-t border-white/10">
+                <a 
+                  href={branch.mapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-xs font-bold text-[#00AEEF] hover:text-cyan-400 transition-colors gap-1.5 focus:outline-none"
+                >
+                  Petunjuk Arah Google Maps 
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* SECTION 3: BOTTOM FOOTER (HAK CIPTA & TERMS) */}
+        <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-gray-500 font-medium text-xs md:text-sm gap-4 text-center md:text-left">
+          <p>&copy; {currentYear} Privakom. All rights reserved.</p>
+          <div className="flex gap-6 mt-2 md:mt-0">
+            <a href="#" className="hover:text-[#00AEEF] transition-colors hover:underline underline-offset-4">Privacy Policy</a>
+            <a href="#" className="hover:text-[#00AEEF] transition-colors hover:underline underline-offset-4">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
