@@ -111,7 +111,9 @@ const Navbar = () => {
             <a href="#courses" className="font-bold text-gray-800 text-sm" onClick={() => setIsMobileMenuOpen(false)}>Program Kursus</a>
             <a href="/kursus-excel-karawang" className="font-bold text-cyan-600 text-sm">Kursus Excel Karawang</a>
             <a href="/kursus-autocad-karawang" className="font-bold text-cyan-600 text-sm">AutoCAD Karawang</a>
-            <a href="/inhouse-training-karawang" className="font-bold text-cyan-600 text-sm">Inhouse Training Pabrik</a>
+            <a href="/inhouse-training-karawang" className="font-bold text-cyan-600 text-sm">
+  Inhouse Training Komputer
+</a>
             <a href="#contact" className="font-bold text-gray-800 text-sm" onClick={() => setIsMobileMenuOpen(false)}>Kontak</a>
 
             {/* AREA PERPINDAHAN CABANG DI HP */}
